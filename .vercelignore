@@ -1,0 +1,23 @@
+# 📦 의존성 폴더 (Vercel은 배포 시 자동 설치)
+node_modules/
+
+# 🛠️ 빌드 결과물 (로컬 빌드 캐시)
+.next/
+out/
+dist/
+
+# 🔑 환경 변수 및 설정 파일
+.env
+.env.*
+.env.local
+
+# 🧠 IDE 및 개발 툴 관련
+.vscode/
+.idea/
+
+# 📝 로그 및 기타 캐시 파일
+*.log
+*.tgz
+*.swc
+*.map
+

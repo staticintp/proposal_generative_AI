@@ -1,13 +1,41 @@
-# 의존성 폴더
+# 📦 의존성 폴더
 node_modules/
 
-# 빌드 결과
+# 🛠️ 빌드 결과
 .next/
 out/
+dist/
 
-# 환경 변수
+# 🔑 환경 변수 및 개인 설정
+.env
 .env.local
+.env.*.local
+.env.production
+.env.development
 
-# macOS, Windows, 로그 파일 등 기타
+# 🔐 Gemini API 키 보호 (환경 변수로만 관리할 것)
+# => .env 계열 파일로 넣고 위처럼 gitignore 처리되어야 안전
+
+# 💾 운영체제/에디터 관련 파일
 .DS_Store
+Thumbs.db
 *.log
+*.tgz
+
+# ⚙️ IDE/에디터 설정 파일
+.vscode/
+.idea/
+
+# 🔧 Next.js SWC 및 플랫폼별 빌드 바이너리 (대용량 문제 방지)
+**/*.node
+**/*.bin
+
+# 🚫 Git에서 추적되지 않도록 명시
+*.swc
+*.map
+
+# 📁 Vercel 배포 디렉토리 (로컬용만, 원격에서는 재생성됨)
+.vercel/
+
+# 📈 테스트 및 보고서
+coverage/
