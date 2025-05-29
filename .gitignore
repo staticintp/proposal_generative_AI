@@ -1,0 +1,13 @@
+# 의존성 폴더
+node_modules/
+
+# 빌드 결과
+.next/
+out/
+
+# 환경 변수
+.env.local
+
+# macOS, Windows, 로그 파일 등 기타
+.DS_Store
+*.log
