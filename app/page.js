@@ -85,12 +85,15 @@ export default function Home() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const handleDownload = () => {
-    const doc = new jsPDF();
-    const lines = doc.splitTextToSize(result, 180);
-    doc.text(lines, 15, 20);
-    doc.save('기획서.pdf');
-  };
+  const handleDownload = async () => {
+  if (typeof window === 'undefined') return; // SSR 방지
+
+  const { default: jsPDF } = await import('jspdf'); // 브라우저 환경에서만 실행
+  const doc = new jsPDF();
+  const lines = doc.splitTextToSize(result, 180);
+  doc.text(lines, 15, 20);
+  doc.save('기획서.pdf');
+};
 
   return (
     <main className="max-w-3xl mx-auto px-4 py-10">

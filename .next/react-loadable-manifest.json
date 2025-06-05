@@ -1,24 +1,44 @@
 {
-  "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg": {
-    "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg",
+  "app\\page.js -> jspdf": {
+    "id": 6597,
+    "files": []
+  },
+  "components\\ResultCard.js -> html2pdf.js": {
+    "id": 4227,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_canvg_lib_index_es_js.js"
+      "static/chunks/ad2866b8.0624ac6be2bee649.js",
+      "static/chunks/b645e135.cf404ab1d3dede8d.js"
+    ]
+  },
+  "node_modules\\jspdf\\dist\\jspdf.es.min.js -> canvg": {
+    "id": 4137,
+    "files": [
+      "static/chunks/bc98253f.6f872af9647c38f7.js",
+      "static/chunks/121.2028cef1eb11a9f0.js"
     ]
   },
   "node_modules\\jspdf\\dist\\jspdf.es.min.js -> dompurify": {
-    "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> dompurify",
+    "id": 822,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_dompurify_dist_purify_es_mjs.js"
+      "static/chunks/822.9fd95f6c68360b2c.js"
     ]
   },
   "node_modules\\jspdf\\dist\\jspdf.es.min.js -> html2canvas": {
-    "id": "node_modules\\jspdf\\dist\\jspdf.es.min.js -> html2canvas",
-    "files": []
-  },
-  "node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
-    "id": "node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
+    "id": 2699,
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js"
+      "static/chunks/ad2866b8.0624ac6be2bee649.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 472,
+    "files": [
+      "static/chunks/472.a3826d29d6854395.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 9341,
+    "files": [
+      "static/chunks/341.df3329d77a5faa19.js"
     ]
   }
 }

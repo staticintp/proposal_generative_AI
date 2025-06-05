@@ -1,5 +1,7 @@
 'use client';
-import html2pdf from 'html2pdf.js';
+
+// 정적 import 제거됨 → 서버에서 오류 발생 방지
+// import html2pdf from 'html2pdf.js';
 
 export default function ResultCard({
   result,
@@ -8,7 +10,13 @@ export default function ResultCard({
   expanded,
   setExpanded,
 }) {
-  const handleDownload = () => {
+  const handleDownload = async () => {
+    // ✅ 클라이언트 환경 확인
+    if (typeof window === 'undefined') return;
+
+    // ✅ html2pdf.js는 클라이언트에서만 동작하므로 동적 import 사용
+    const html2pdf = (await import('html2pdf.js')).default;
+
     const element = document.getElementById('result-content');
 
     const opt = {

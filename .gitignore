@@ -39,3 +39,4 @@ Thumbs.db
 
 # 📈 테스트 및 보고서
 coverage/
+.vercel
