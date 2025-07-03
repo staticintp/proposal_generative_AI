@@ -99,6 +99,8 @@ Streamlit을 사용해 프로토타입까지만 만들고 배포에 이르지 �
 
 ## 🏛️ 프로젝트 구조
 
+## 🏛️ 프로젝트 구조
+
 ```
 /app
   ├─ /api/generate          → Gemini API 호출
@@ -118,7 +120,7 @@ Streamlit을 사용해 프로토타입까지만 만들고 배포에 이르지 �
   └─ favicon, og 이미지 등 정적 자산
 
 .env.local                  → API 키 등 환경변수
-
+```
 
 ---
 
