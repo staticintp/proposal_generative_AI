@@ -88,11 +88,10 @@ Streamlit을 사용해 프로토타입까지만 만들고 배포에 이르지 �
 | **Frontend** | Next.js 15 (App Router), React 19, Tailwind CSS |
 | **Editor** | JSX + jsPDF, (추후 react-quill) |
 | **Backend/API** | Next.js API Routes + Google Gemini API |
-| **Auth** | Firebase Authentication (Google, Kakao) |
-| **Database** | Firebase Firestore |
 | **배포** | Vercel (무료) |
 | **기타 도구** | .env.local, .gitignore, 환경변수 분리 |
-
+| **Auth(예정)** | Firebase Authentication (Google, Kakao) |
+| **Database(예정)** | Firebase Firestore |
 ---
 
 ## 🏛️ 프로젝트 구조
