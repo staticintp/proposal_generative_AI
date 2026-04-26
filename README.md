@@ -114,7 +114,7 @@ Streamlit을 사용해 프로토타입까지만 만들고 배포에 이르지 �
 /public
   └─ favicon, og 이미지 등 정적 자산
 
-.env.local                  → API 키 등 환경변수
+.env.local                  →  환경변수
 ```
 
 ---
